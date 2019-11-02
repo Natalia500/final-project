@@ -49,11 +49,13 @@
     margin-top: $margin-top;
     margin-left: $margin-left; 
 }
+
 @mixin font ($font-family,$font-size,$color){
     font-family: $font-family;
     font-size:$font-size;
     color:$color; 
 }
+
 @mixin margin-carousel-prev($margin-top,$margin-left){
     margin-top:$margin-top;
     margin-left:$margin-left;
